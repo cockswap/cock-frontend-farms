@@ -12,21 +12,21 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.vikingswap.finance/',
+        href: 'http://exchange.cockswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.vikingswap.finance/#/pool',
+        href: 'http://exchange.cockswap.finance/#/pool',
       },
     ],
   },
   {
-    label: 'Farms',
+    label: 'Coop',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Armory',
+    label: 'Henhouse',
     icon: 'PoolIcon',
     href: '/nests',
   },
@@ -54,23 +54,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/VikingDefi/",
+        href: "https://github.com/cockswap/",
       },
       {
         label: "Docs",
-        href: "https://vikingswap.gitbook.io/viking-swap/",
+        href: "https://github.com/cockswap/",
       },
       {
         label: "Blog",
-        href: "https://viking-swap.medium.com/",
+        href: "https://cockswap.medium.com/",
       },
     ],
   },
-  {
-    label: 'Audit by Hacken',
-    icon: 'HelmetIcon',
-    href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
-  },
+#  {
+#    label: 'Audit by Hacken',
+ #   icon: 'HelmetIcon',
+  #  href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
+ # },
 ]
 
 export default config
