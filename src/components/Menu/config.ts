@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.cockswap.finance/',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.cockswap.finance/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       },
     ],
   },
@@ -65,12 +65,12 @@ const config: MenuEntry[] = [
         href: "https://cockswap.medium.com/",
       },
     ],
-  },
-#  {
-#    label: 'Audit by Hacken',
- #   icon: 'HelmetIcon',
-  #  href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
- # },
+  }
+// {
+// label: 'Audit by Hacken',
+// icon: 'HelmetIcon',
+// href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
+// }
 ]
 
 export default config

@@ -112,24 +112,24 @@ const farms: FarmConfig[] = [
       56: '0x03d6bd3d48f956d783456695698c407a46ecd54d',
     },
     quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.bnb,
+    quoteTokenAdresses: contracts.wbnb,
   },
-  {
-    pid: 7,
-    risk: 2,
-    lpSymbol: 'BETH-ETH LP',
-    lpAddresses: {
-      97: '',
-      56: '0x99d865Ed50D2C32c1493896810FA386c1Ce81D91',
-    },
-    tokenSymbol: 'BETH',
-    tokenAddresses: {
-      97: '',
-      56: '0x250632378e573c6be1ac2f97fcdf00515d0aa91b',
-    },
-    quoteTokenSymbol: QuoteToken.ETH,
-    quoteTokenAdresses: contracts.eth,
-  },
+  // {
+  //   pid: 7,
+  //   risk: 2,
+  //   lpSymbol: 'BETH-ETH LP',
+  //   lpAddresses: {
+  //     97: '',
+  //     56: '0x99d865Ed50D2C32c1493896810FA386c1Ce81D91',
+  //   },
+  //   tokenSymbol: 'BETH',
+  //   tokenAddresses: {
+  //     97: '',
+  //     56: '0x250632378e573c6be1ac2f97fcdf00515d0aa91b',
+  //   },
+  //   quoteTokenSymbol: QuoteToken.ETH,
+  //   quoteTokenAdresses: contracts.eth,
+  // },
   {
     pid: 8,
     risk: 4,
@@ -160,7 +160,7 @@ const farms: FarmConfig[] = [
       56: '0x4ae2f11df681eec979bd93085dd1a05e9593c8c6',
     },
     quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.bnb,
+    quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 10,
@@ -244,7 +244,7 @@ const farms: FarmConfig[] = [
       56: '0xCa3F508B8e4Dd382eE878A314789373D80A5190A',
     },
     quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.bnb,
+    quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 14,
@@ -329,7 +329,7 @@ const farms: FarmConfig[] = [
       56: '0x5ef5994fa33ff4eb6c82d51ee1dc145c546065bd',
     },
     quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.bnb,
+    quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 19,
